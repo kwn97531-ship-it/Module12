@@ -22,8 +22,11 @@ The program allows inserting 3 elements from the user and then prints the **top 
 ---
 
 ## 💻 Program
-Add Code Here
+class Node: def init(self, data): self.data = data self.next = None class Stack: def init(self): self.top = None def push(self, data): new_node = Node(data) new_node.next = self.top self.top = new_node def display_top(self): if self.top is None: print("Stack is empty.") else: print(f"🔝 Top element: {self.top.data}") if name == "main": stack = Stack() for i in range(3): value = input(f"Enter element {i+1}: ") stack.push(value) stack.display_top()
 
 ## Output
 
+<img width="550" height="196" alt="image" src="https://github.com/user-attachments/assets/9ae22d12-dd99-4732-8285-e40818495b30" />
+
 ## Result
+Thus the program has been executed successfully.
